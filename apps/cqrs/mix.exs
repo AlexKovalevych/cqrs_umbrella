@@ -39,7 +39,6 @@ defmodule Cqrs.Mixfile do
       {:postgrex, ">= 0.0.0"},
       {:ecto, "~> 2.1"},
       {:kafka_ex, "~> 0.8.2"},
-      {:commander, "~> 1.1"},
       {:commanded_eventstore_adapter, "~> 0.4.0"}
     ]
   end
